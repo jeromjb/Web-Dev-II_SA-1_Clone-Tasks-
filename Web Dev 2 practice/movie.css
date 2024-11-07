@@ -1,0 +1,38 @@
+body{
+    background-image: linear-gradient(rgb(3, 3, 104),black);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+  }
+  .image-container {
+    margin: 20px auto; 
+    text-align: center; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+  }
+  
+  img {
+    filter: sepia(50%); 
+    width: 250px;
+    height: 310px;
+    
+  }
+
+  img:hover{
+    transform: scale(1.1);
+  }
+
+div {
+    display: inline;
+    margin-left: 100px;    
+}
+
+@keyframes fadeInMoveUp{
+  
+}

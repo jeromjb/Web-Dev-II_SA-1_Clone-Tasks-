@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/13b1ac29d6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#story">Story</a></li>
+                <li><a href="#flavour">Flavours</a></li>
+                <li><a href="contactindex.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <h1>Weston's<br> Chocolate Box </h1>
+        </div>
+        
+
+    </div>
+
+</div>
+
+
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="imgs/img 2.webp">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About</h1>
+                <p>A well-known brand known for its artisanal method of producing chocolate is Weston's Chocolates. The company, which was established in a small village, takes pleasure in utilizing only the best, ethically sourced ingredients to make a wide variety of confections. Each item, which ranges from creamy milk to rich dark chocolates, is painstakingly made with attention to detail, guaranteeing an opulent flavor. Weston stands out due to its active support of neighborhood farmers and environmental programs, as well as its dedication to sustainability and community engagement. Weston's Chocolates continues to amaze chocolate lovers worldwide with its reputation for quality and commitment to craftsmanship, making every taste a moment to cherish.</p>
+                
+                
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="story">
+    <div class="container">
+        <h1 class="sub-title">Our Story</h1>
+
+        <p>John Weston, a dedicated chocolatier, started Westons Chocolates in the early 1900s by setting up a little store in a sleepy hamlet. His commitment to creating fine, artisan chocolates won him a devoted audience right away. John transformed chocolate-making into an art form by experimenting with distinctive flavors and cutting-edge methods while using only the best ingredients. As word got out, Westons—famous for its trademark truffles and thick, velvety bars—went from being a local favorite to a well-loved brand. With each exquisite taste, Westons Chocolates delights chocolate lovers worldwide while honoring its legacy and embracing contemporary flavors and sustainable production methods.</p>
+
+            
+        
+    </div>
+</div>
+
+
+
+
+<div id="flavour">
+    <div class="container">
+        <h1 class="sub-title">Our Flavours</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="imgs/Dark Choc.jpg">
+                <div class="layer">
+                    <h3>Dark Chocolate</h3>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="imgs/white choc.webp">
+                <div class="layer">
+                    <h3>White Chocolate</h3>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="imgs/Milk choc.jpg">
+                <div class="layer">
+                    <h3>Milk Chocolate</h3>
+                    
+                </div>
+            </div>
+        </div>
+        <a href="see more.html" class="btn">See more</a>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+ 
+
+<script>
+
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+
+</script>
+</body>
+</html>

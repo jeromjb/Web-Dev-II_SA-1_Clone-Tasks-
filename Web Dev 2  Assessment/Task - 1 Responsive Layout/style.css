@@ -1,0 +1,359 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #d4d4d4;
+}
+
+
+.logo img{
+    display: block;
+    padding-top:30px;
+    width: 200px;
+    padding-left: 520px;
+    padding-bottom: 50px;
+    
+}
+
+
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p1 {
+    display: block;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+
+
+nav {
+    
+    display: block;
+    padding-top: 30px;
+}
+
+
+
+nav .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 300px;
+    padding-left: 230px;
+}
+
+nav .nav-links li {
+    display: inline;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+
+
+
+.content-1 {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.subc-1 .title1 {
+    font-size: 36px;
+    color: #111;
+    margin-bottom: 5px;
+}
+
+.subc-1 .h1-1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    color: #555;
+}
+
+.content-grid {
+    margin-top: 20px;
+    column-count: 3;
+
+}
+
+.content-grid h1 {
+    font-size: 28px;
+    margin-top: 30px;
+    color: #111;
+}
+
+.content-grid p1 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.content-3 {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.f-album{
+    height: 500px
+    
+}
+
+.album-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr;    
+    gap: 0;
+    
+
+}
+
+.album-grid img{
+    height: 250px;
+    width: 300px;
+}
+
+
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-left: 100px;
+}
+
+.author p1 {
+    flex: 1;
+    margin-right: 20px;
+    color: #555;
+    font-size: 16px;
+    padding-left: 100px;
+}
+
+.author img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+@media (max-width: 540px) and (min-width: 360px) {
+    body{
+        width: 540px;
+    }    
+    
+    
+    
+    body{ 
+        background-color: #e9e9e9;
+        display: block;
+    
+    }
+    .logo img{
+        padding-top: 30px;
+        display: block;
+        margin-left: -300px;
+        margin-right: auto;
+        width: 150px;
+        
+    }
+
+    nav {
+    
+    display: block;
+    padding-top: 30px;
+}
+
+
+
+nav .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 300px;
+    padding-left: 230px;
+    margin-left: 150px;
+}
+
+nav .nav-links li {
+    display: inline;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+    ul{
+        display: flexbox;
+        justify-content: left;
+        list-style: none;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    li{
+        margin-left: -250px;
+    }
+    
+    .content-1{
+        margin-left: 50px;
+        margin-right: -50px;
+        background-color: white;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+    
+    .subc-1{
+        margin-left: 25px;
+    }
+    
+    .content-grid {
+        column-count: 1;
+        content-align: 1;
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
+    
+    .title1{
+        font-family: protest;
+        font-size: 80px;
+    }
+    
+    h1{
+        font-family: protest;
+        font-size: 58px;
+        margin-bottom: -8px;
+        text-align: center;
+    }
+    h2{
+        font-family: protest;
+        font-size: 25px;
+        margin-top: -5px;
+        text-align: center;
+    }
+    h3{
+        font-family: protest;
+        font-size: 36px;
+        margin-top: 5%;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    h4{
+        font-family: protest;
+        font-size: 36px;
+        margin-top: -1px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    h5{
+        font-family: protest;
+        font-size: 36px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .images{
+        display: block;
+    }
+    .content-3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .f-album{
+        height: auto;
+        width: 100%;
+    }
+    
+    .album-grid{
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr ;    
+        gap: 0;
+    
+    }
+    
+    .album-grid img{
+        height: auto;
+        width: 100%;
+    }
+    h6{
+        font-family: protest;
+        font-size: 48px;
+        margin-top: 280px;
+        text-align: center;
+        margin-right: 0px;
+        margin-bottom: -10px;
+    }
+    
+    .author img{
+        display: flex;
+        width:200px;
+        height: 200px;;
+        border-radius: 50%;
+        margin-left: 180px;
+        margin-top: -380px;
+    }
+    
+    .author{
+        font-family: jose;
+        display: inline;
+        font-size: 15px;
+        margin-top: 5px;
+        margin-left: 1px;
+        
+    }
+
+    .author p1 {
+        flex: 1;
+        margin-right: 20px;
+        color: #555;
+        font-size: 16px;
+        padding-left: 100px;
+    }
+    
+    .author img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin-top: 20px;
+    }
+    
+    
+    footer{
+        margin-top: 25px;
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        margin-top: 50px;
+    }
+    p{
+        font-family: jose;
+    }
+}
