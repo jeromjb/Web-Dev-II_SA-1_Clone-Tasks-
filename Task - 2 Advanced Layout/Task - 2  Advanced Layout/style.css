@@ -230,3 +230,16 @@ main {
 
     
 }
+
+@media (min-width: 768px) {
+    .movie-list2 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .movie-list {
+        display: none;
+    }
+}
